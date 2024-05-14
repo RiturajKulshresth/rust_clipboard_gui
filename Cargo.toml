@@ -1,0 +1,12 @@
+[package]
+name = "gui2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.18.1"
+glib = "0.19.6"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+x11-clipboard = "0.9.2"
+inotify = "0.10.2"
